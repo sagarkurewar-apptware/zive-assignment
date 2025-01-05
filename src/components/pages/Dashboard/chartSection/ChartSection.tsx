@@ -56,7 +56,7 @@ const ChartSection: React.FC = () => {
   };
 
   return (
-    <div className="w-full h-full flex flex-col">
+    <div className="w-full h-full flex flex-col bg-white rounded-md pt-5 px-[0.8rem] pb-[0.8rem]">
       <div className="flex gap-3 mb-4">
         {indexArray.map((ele) => (
           <button

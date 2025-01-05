@@ -33,7 +33,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
       </div>
 
       {/* Tab Content */}
-      <div className="h-[90%] bg-white rounded-md pt-5 px-[0.8rem] pb-[0.8rem]">
+      <div className="h-[90%] ">
         {activeTab.content || <div>Select a tab to view content.</div>}
       </div>
     </div>

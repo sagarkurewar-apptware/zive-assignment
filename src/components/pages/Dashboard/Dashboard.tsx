@@ -2,6 +2,8 @@ import React from "react";
 import DashboardLayout from "@layouts/DashboardLayout";
 import Tabs from "components/tabs/Tabs";
 import ChartSection from "./chartSection/ChartSection";
+import SharesInfoSection from "./sharesInfoSection/SharesInfoSection";
+import PeopleSection from "./peopleSection/PeopleSection";
 
 const DashboardPage: React.FC = () => {
   const tabs = [
@@ -13,12 +15,12 @@ const DashboardPage: React.FC = () => {
     {
       id: "shares-info",
       label: "Shares Info",
-      content: <div>Here is the Shares Information.</div>,
+      content: <SharesInfoSection />,
     },
     {
       id: "people",
       label: "People",
-      content: <div>Meet the People behind the scenes.</div>,
+      content: <PeopleSection />,
     },
     {
       id: "coi",
